@@ -18,7 +18,7 @@ export default function Home() {
           shows, Podcasts, Books and more with Winners List."
         />
       </Head>
-      <div className="flex flex-col items-center justify-center bg-gradient-to-b from-slate-950 via-slate-900 to-yellow-950">
+      <div className="flex flex-col items-center min-h-screen v-screen justify-center bg-gradient-to-b from-slate-950 via-slate-900 to-yellow-950">
         <img
           src="./app-icon-transparent.png"
           className="w-64 h-64 text-black"
