@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
             Winners List
           </h1>
 
-          <p className="ml-1 text-gray-400 text-2xl max-w-4xl p-10">
+          <p className="ml-5 text-gray-400 text-2xl max-w-4xl p-10">
             Discover award-winning excellence in Apps, Games, Music, Movies, TV
             shows, Podcasts, Books and more with Winners List. <br />
             {/* <br />
@@ -40,10 +41,56 @@ export default function Home() {
 
         <img src="./download-ios.svg" className="w-64 h-64 text-black" />
 
+        {/* display images here horizontally for desktop and vertically for mobile */}
+        <div className="grid gap-4 grid-cols-2 m-5">
+          <img
+            alt="app-screenshot"
+            loading="lazy"
+            src="./screens/1.jpg"
+            className="w-64 inline-block"
+          />
+          <img
+            alt="app-screenshot"
+            loading="lazy"
+            src="./screens/2.jpg"
+            className="w-64 inline-block"
+          />
+          <img
+            alt="app-screenshot"
+            loading="lazy"
+            src="./screens/3.png"
+            className="w-64 inline-block"
+          />
+          <img
+            alt="app-screenshot"
+            loading="lazy"
+            src="./screens/4.jpeg"
+            className="w-64 inline-block"
+          />
+          <img
+            alt="app-screenshot"
+            loading="lazy"
+            src="./screens/5.jpeg"
+            className="w-64 inline-block"
+          />
+          <img
+            alt="app-screenshot"
+            loading="lazy"
+            src="./screens/6.jpeg"
+            className="w-64 inline-block"
+          />
+          {/* <img src="./screens/7.jpeg" className="w-64 inline-block" /> */}
+        </div>
+
         <section className="flex flex-col items-center justify-center">
-          <h1 className="text-3xl text-white tracking-tight max-w-3xl font-semibold mt-10 mb-2">
-            Reach out
-          </h1>
+          <a href="#contact">
+            <h1
+              id="contact"
+              className="text-3xl text-white tracking-tight max-w-3xl font-semibold mt-10 mb-2"
+            >
+              Reach out
+            </h1>
+          </a>
 
           <div className="ml-1 text-gray-400 text-xl flex flex-col items-center justify-center">
             You can DM or E-mail for support
