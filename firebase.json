@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "winnerslist",
     "source": ".",
     "ignore": [
       "firebase.json",
