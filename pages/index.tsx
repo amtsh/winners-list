@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Winners List app - Discover top Apps, Games, Music, Movies, Podcasts
+          Winners List app - Discover top Music, Movies, Podcasts, Books
         </title>
         <meta name="description" content="Winners List" />
         <link rel="icon" href="/app-icon.svg" />
@@ -14,7 +14,7 @@ export default function Home() {
         <meta property="og:title" content="Winners List" />
         <meta
           property="og:description"
-          content="Discover top award-winning excellence in Apps, Games, Music, Movies, TV
+          content="Discover top award-winning excellence in Music, Movies, TV
           shows, Podcasts, Books and more with Winners List."
         />
       </Head>
@@ -29,8 +29,8 @@ export default function Home() {
           </h1>
 
           <p className="ml-5 text-gray-400 text-2xl max-w-4xl p-10">
-            Discover award-winning excellence in Apps, Games, Music, Movies, TV
-            shows, Podcasts, Books and more with Winners List. <br />
+            Discover award-winning excellence in Music, Movies, TV shows,
+            Podcasts, Books and more with Winners List. <br />
             {/* <br />
             Immerse yourself in a curated collection of the finest content
             across various categories. Stay up-to-date with yearly award winners

@@ -12,8 +12,8 @@ export default function Privacy() {
           Privacy Policy - Winners List app
         </h3>
         <p className="ml-5 text-gray-300 text-2xl max-w-4xl p-10">
-          Amit Shinde built the Winners List app as a free app. This SERVICE is
-          provided by Amit Shinde at no cost and is intended for use as is.
+          Amit Shinde built the Winners List app as a paid app. This SERVICE is
+          provided by Amit Shinde and is intended for use as is.
         </p>
         <p className="ml-5 text-gray-300 text-2xl max-w-4xl p-10">
           This page is used to inform visitors regarding my policies with the
