@@ -54,12 +54,13 @@ export default function Home() {
             src="./screens/2.jpg"
             className="w-64 inline-block"
           />
-          <img
+          {/* Apps */}
+          {/* <img
             alt="app-screenshot"
             loading="lazy"
             src="./screens/3.png"
             className="w-64 inline-block"
-          />
+          /> */}
           <img
             alt="app-screenshot"
             loading="lazy"
@@ -78,7 +79,7 @@ export default function Home() {
             src="./screens/6.jpeg"
             className="w-64 inline-block"
           />
-          {/* <img src="./screens/7.jpeg" className="w-64 inline-block" /> */}
+          <img src="./screens/7.jpeg" className="w-64 inline-block" />
         </div>
 
         <section className="flex flex-col items-center justify-center">
