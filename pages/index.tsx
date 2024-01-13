@@ -21,7 +21,7 @@ export default function Home() {
       <div className="flex flex-col items-center min-h-screen v-screen justify-center bg-gradient-to-b from-slate-950 via-slate-900 to-yellow-950">
         <img
           src="./app-icon-transparent.png"
-          className="w-64 h-64 text-black"
+          className="w-64 h-64 text-black mt-20"
         />
         <section className="flex flex-col items-center justify-center">
           <h1 className="text-5xl text-white tracking-tight max-w-3xl font-semibold mt-10 mb-0">
